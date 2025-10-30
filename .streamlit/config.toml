@@ -1,0 +1,11 @@
+# Streamlit configuration file
+# This helps suppress file watcher warnings/errors with PyTorch
+
+[server]
+# Disable file watching for better compatibility with PyTorch
+fileWatcherType = "poll"
+
+[logger]
+# Reduce log level to suppress warnings
+level = "error"
+
